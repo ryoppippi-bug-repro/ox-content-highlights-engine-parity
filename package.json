@@ -1,0 +1,16 @@
+{
+  "name": "ox-content-highlights-engine-parity",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@12.20.0",
+  "scripts": {
+    "repro": "HIGHLIGHTS=1 node repro.js",
+    "repro:tree-sitter": "node repro.js",
+    "bench": "node bench.js"
+  },
+  "dependencies": {
+    "@ox-content/vite-plugin": "3.8.3",
+    "vite": "8.3.8"
+  }
+}
