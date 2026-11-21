@@ -1,6 +1,6 @@
 # ox-content: `engine: "highlights"` does not match the tree-sitter engine
 
-Reproduction for ISSUE_LINK, using `@ox-content/vite-plugin@3.8.3` (which pulls in `@pierre/highlights@0.3.0`), `vite@8.3.8`, Node 24.22.2 and pnpm 12.20.0.
+Reproduction for [ubugeeei-prod/ox-content#1579](https://github.com/ubugeeei-prod/ox-content/issues/1579), using `@ox-content/vite-plugin@3.8.3` (which pulls in `@pierre/highlights@0.3.0`), `vite@8.3.8`, Node 24.22.2 and pnpm 12.20.0.
 
 ## Steps
 
